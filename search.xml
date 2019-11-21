@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>文章插入图片的方法</title>
-    <url>/Hexo/2019/11/21/markdown%E7%BC%96%E5%86%99tips/</url>
+    <url>/Hexo.github.io/2019/11/21/markdown%E7%BC%96%E5%86%99tips/</url>
     <content><![CDATA[<h2 id="2019-11-21"><a href="#2019-11-21" class="headerlink" title="2019/11/21"></a>2019/11/21</h2><h3 id="文章插入图片"><a href="#文章插入图片" class="headerlink" title="文章插入图片"></a>文章插入图片</h3><h4 id="amp-amp-1-修改配置文件："><a href="#amp-amp-1-修改配置文件：" class="headerlink" title="&amp;&amp;1 修改配置文件："></a>&amp;&amp;1 修改配置文件：</h4><li markdown="2" style="
     color: green; 
     font-weight: bold; ">把主页配置文件_config.yml 里的post_asset_folder:这个选项设置为true</li>
@@ -21,7 +21,7 @@
   </entry>
   <entry>
     <title>JS-JQuery对数组常用基本操作</title>
-    <url>/Hexo/2019/11/20/JS-JQuery%E5%AF%B9%E6%95%B0%E7%BB%84%E5%B8%B8%E7%94%A8%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</url>
+    <url>/Hexo.github.io/2019/11/20/JS-JQuery%E5%AF%B9%E6%95%B0%E7%BB%84%E5%B8%B8%E7%94%A8%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</url>
     <content><![CDATA[<h2 id="JQuery中一些常见的数组操作"><a href="#JQuery中一些常见的数组操作" class="headerlink" title="JQuery中一些常见的数组操作"></a>JQuery中一些常见的数组操作</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">var array = [];</span><br></pre></td></tr></table></figure>
 <h3 id="数组后缀加元素"><a href="#数组后缀加元素" class="headerlink" title="数组后缀加元素"></a>数组后缀加元素</h3><h4 id=""><a href="#" class="headerlink" title=""></a></h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array.push();</span><br></pre></td></tr></table></figure>
 <h3 id="替换数组元素"><a href="#替换数组元素" class="headerlink" title="替换数组元素"></a>替换数组元素</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array.splice(x,y,z)</span><br><span class="line">&lt;!-</span><br><span class="line">x : 替换元素的位置 从0开始</span><br><span class="line">y : 替换掉元素的个数 若为0 则表示在对应位置缀加元素</span><br><span class="line">z : 替换的元素或变量</span><br><span class="line">-!&gt;</span><br></pre></td></tr></table></figure>
@@ -37,7 +37,7 @@
   </entry>
   <entry>
     <title>Hexo部署</title>
-    <url>/Hexo/2019/11/20/Hexo%E9%83%A8%E7%BD%B2/</url>
+    <url>/Hexo.github.io/2019/11/20/Hexo%E9%83%A8%E7%BD%B2/</url>
     <content><![CDATA[<h2 id="2019-11-20"><a href="#2019-11-20" class="headerlink" title="2019/11/20"></a>2019/11/20</h2><h3 id="Hexo部署后发现github-pages访问时js-css文件访问不到-报404错误"><a href="#Hexo部署后发现github-pages访问时js-css文件访问不到-报404错误" class="headerlink" title="Hexo部署后发现github pages访问时js/css文件访问不到 报404错误"></a>Hexo部署后发现github pages访问时js/css文件访问不到 报404错误</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">解决方法</span><br><span class="line">根目录下找到配置文件 “_config.yml” 修改其中参数Url和root 改为</span><br><span class="line">url:&lt;你的仓库路径&gt; https://daible.github.io/Hexo</span><br><span class="line">root:&lt;你的仓库名&gt;/Hexo/</span><br></pre></td></tr></table></figure>
 <p><img src="../HexoError1.png" alt="avatar"><br><img src="../HexoError1.1.png" alt="avatar"></p>
 ]]></content>
@@ -47,7 +47,7 @@
   </entry>
   <entry>
     <title>2019-11</title>
-    <url>/Hexo/2019/11/19/2019-11/</url>
+    <url>/Hexo.github.io/2019/11/19/2019-11/</url>
     <content><![CDATA[<h2 id="2019-11-03"><a href="#2019-11-03" class="headerlink" title="2019/11/03"></a>2019/11/03</h2><h4 id="js页面中写入dwr层方法时-进入方法前要关闭异步"><a href="#js页面中写入dwr层方法时-进入方法前要关闭异步" class="headerlink" title="js页面中写入dwr层方法时 进入方法前要关闭异步"></a>js页面中写入dwr层方法时 进入方法前要关闭异步</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">javascript: dwr.engine.setAsync(flase);</span><br><span class="line">	dwrSelfcheckList,fingGroup(str,&#123;</span><br><span class="line">		callback:<span class="keyword">function</span>(data)&#123;</span><br><span class="line">				var _a = data;</span><br><span class="line">				......</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;);</span><br><span class="line">javascript: dwr.engine.setAsync(<span class="literal">true</span>);</span><br></pre></td></tr></table></figure>
 
 
@@ -74,7 +74,7 @@
   </entry>
   <entry>
     <title>2019-10</title>
-    <url>/Hexo/2019/11/19/2019-10/</url>
+    <url>/Hexo.github.io/2019/11/19/2019-10/</url>
     <content><![CDATA[<h2 id="2019-10-21"><a href="#2019-10-21" class="headerlink" title="2019/10/21"></a>2019/10/21</h2><h3 id="在每一个匹配的元素上触发某类事件-比click的好处在于可以传递参数进去并且对参数进行操作或者处理"><a href="#在每一个匹配的元素上触发某类事件-比click的好处在于可以传递参数进去并且对参数进行操作或者处理" class="headerlink" title="(在每一个匹配的元素上触发某类事件,比click的好处在于可以传递参数进去并且对参数进行操作或者处理)"></a>(在每一个匹配的元素上触发某类事件,比click的好处在于可以传递参数进去并且对参数进行操作或者处理)</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$(document).trigger(id + <span class="string">":(/.)事件名称"</span>,[data,ret])</span><br><span class="line">例</span><br><span class="line">$(document).trigger(id+<span class="string">".initLoader"</span>,[definitionsJson,searchCondition]);</span><br></pre></td></tr></table></figure>
 <p>(向匹配元素附加一个或更多事件处理器)</p>
 <pre><code class="bash">$(document).<span class="built_in">bind</span>(id + <span class="string">":(/.)事件名称"</span>,<span class="keyword">function</span>(e,data,ret){
@@ -90,7 +90,7 @@
   </entry>
   <entry>
     <title>2019-09</title>
-    <url>/Hexo/2019/11/19/2019-09/</url>
+    <url>/Hexo.github.io/2019/11/19/2019-09/</url>
     <content><![CDATA[<h2 id="2019-09-10"><a href="#2019-09-10" class="headerlink" title="2019/09/10"></a>2019/09/10</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">统计报表控件 echarts</span><br></pre></td></tr></table></figure>
 
 <p><a href="https://gallery.echartsjs.com/explore.html#sort=rank~timeframe=all~author=all" target="_blank" rel="noopener">https://gallery.echartsjs.com/explore.html#sort=rank~timeframe=all~author=all</a></p>
