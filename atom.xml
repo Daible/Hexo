@@ -6,7 +6,7 @@
   <link href="/Hexo/atom.xml" rel="self"/>
   
   <link href="https://daible.github.io/Hexo/"/>
-  <updated>2019-11-21T07:39:41.711Z</updated>
+  <updated>2019-11-21T10:22:35.112Z</updated>
   <id>https://daible.github.io/Hexo/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://daible.github.io/Hexo/2019/11/21/markdown%E7%BC%96%E5%86%99tips/"/>
     <id>https://daible.github.io/Hexo/2019/11/21/markdown%E7%BC%96%E5%86%99tips/</id>
     <published>2019-11-21T06:56:54.000Z</published>
-    <updated>2019-11-21T07:39:41.711Z</updated>
+    <updated>2019-11-21T10:22:35.112Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="2019-11-21"><a href="#2019-11-21" class="headerlink" title="2019/11/21"></a>2019/11/21</h2><h3 id="文章插入图片"><a href="#文章插入图片" class="headerlink" title="文章插入图片"></a>文章插入图片</h3><h4 id="amp-amp-1-修改配置文件："><a href="#amp-amp-1-修改配置文件：" class="headerlink" title="&amp;&amp;1 修改配置文件："></a>&amp;&amp;1 修改配置文件：</h4><li markdown="2" style="    color: green;     font-weight: bold; ">把主页配置文件_config.yml 里的post_asset_folder:这个选项设置为true</li><h4 id="amp-amp-2-安装插件-执行如下命令"><a href="#amp-amp-2-安装插件-执行如下命令" class="headerlink" title="&amp;&amp;2 安装插件:执行如下命令"></a>&amp;&amp;2 安装插件:执行如下命令</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure><h4 id="amp-amp-3-放置图片"><a href="#amp-amp-3-放置图片" class="headerlink" title="&amp;&amp;3 放置图片"></a>&amp;&amp;3 放置图片</h4><h5 id="将图片放置在新建的与md文件同级目录中-同名的文件夹中"><a href="#将图片放置在新建的与md文件同级目录中-同名的文件夹中" class="headerlink" title="将图片放置在新建的与md文件同级目录中 同名的文件夹中"></a>将图片放置在新建的与md文件同级目录中 同名的文件夹中</h5><p><img src="../tips.jpg" alt=""></p><h4 id="amp-amp-4-文件中插入图片"><a href="#amp-amp-4-文件中插入图片" class="headerlink" title="&amp;&amp;4 文件中插入图片"></a>&amp;&amp;4 文件中插入图片</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![](../tips2.jpg)</span><br></pre></td></tr></table></figure><li markdown="1" style="    color: pink;     font-weight: bold; ">"[]"中可以写入图片的代替性文字 圆括号内引入图片路径 相对/绝对路径都可</li>]]></content>
+    <content type="html"><![CDATA[<h2 id="2019-11-21"><a href="#2019-11-21" class="headerlink" title="2019/11/21"></a>2019/11/21</h2><h3 id="文章插入图片"><a href="#文章插入图片" class="headerlink" title="文章插入图片"></a>文章插入图片</h3><h4 id="amp-amp-1-修改配置文件："><a href="#amp-amp-1-修改配置文件：" class="headerlink" title="&amp;&amp;1 修改配置文件："></a>&amp;&amp;1 修改配置文件：</h4><li markdown="2" style="    color: green;     font-weight: bold; ">把主页配置文件_config.yml 里的post_asset_folder:这个选项设置为true</li><h4 id="amp-amp-2-安装插件-执行如下命令"><a href="#amp-amp-2-安装插件-执行如下命令" class="headerlink" title="&amp;&amp;2 安装插件:执行如下命令"></a>&amp;&amp;2 安装插件:执行如下命令</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure><h4 id="amp-amp-3-放置图片"><a href="#amp-amp-3-放置图片" class="headerlink" title="&amp;&amp;3 放置图片"></a>&amp;&amp;3 放置图片</h4><h5 id="将图片放置在新建的与md文件同级目录中-同名的文件夹中"><a href="#将图片放置在新建的与md文件同级目录中-同名的文件夹中" class="headerlink" title="将图片放置在新建的与md文件同级目录中 同名的文件夹中"></a>将图片放置在新建的与md文件同级目录中 同名的文件夹中</h5><p><img src="./tips.jpg" alt=""></p><h4 id="amp-amp-4-文件中插入图片"><a href="#amp-amp-4-文件中插入图片" class="headerlink" title="&amp;&amp;4 文件中插入图片"></a>&amp;&amp;4 文件中插入图片</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![](./tips2.jpg)</span><br></pre></td></tr></table></figure><li markdown="1" style="    color: pink;     font-weight: bold; ">"[]"中可以写入图片的代替性文字 圆括号内引入图片路径 相对/绝对路径都可</li>]]></content>
     
     <summary type="html">
     
@@ -73,9 +73,9 @@
     <link href="https://daible.github.io/Hexo/2019/11/20/Hexo%E9%83%A8%E7%BD%B2/"/>
     <id>https://daible.github.io/Hexo/2019/11/20/Hexo%E9%83%A8%E7%BD%B2/</id>
     <published>2019-11-20T01:18:00.000Z</published>
-    <updated>2019-11-21T06:50:16.325Z</updated>
+    <updated>2019-11-21T10:22:22.924Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="2019-11-20"><a href="#2019-11-20" class="headerlink" title="2019/11/20"></a>2019/11/20</h2><h3 id="Hexo部署后发现github-pages访问时js-css文件访问不到-报404错误"><a href="#Hexo部署后发现github-pages访问时js-css文件访问不到-报404错误" class="headerlink" title="Hexo部署后发现github pages访问时js/css文件访问不到 报404错误"></a>Hexo部署后发现github pages访问时js/css文件访问不到 报404错误</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">解决方法</span><br><span class="line">根目录下找到配置文件 “_config.yml” 修改其中参数Url和root 改为</span><br><span class="line">url:&lt;你的仓库路径&gt; https://daible.github.io/Hexo</span><br><span class="line">root:&lt;你的仓库名&gt;/Hexo/</span><br></pre></td></tr></table></figure><p><img src="../HexoError1.png" alt="avatar"><br><img src="../HexoError1.1.png" alt="avatar"></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="2019-11-20"><a href="#2019-11-20" class="headerlink" title="2019/11/20"></a>2019/11/20</h2><h3 id="Hexo部署后发现github-pages访问时js-css文件访问不到-报404错误"><a href="#Hexo部署后发现github-pages访问时js-css文件访问不到-报404错误" class="headerlink" title="Hexo部署后发现github pages访问时js/css文件访问不到 报404错误"></a>Hexo部署后发现github pages访问时js/css文件访问不到 报404错误</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">解决方法</span><br><span class="line">根目录下找到配置文件 “_config.yml” 修改其中参数Url和root 改为</span><br><span class="line">url:&lt;你的仓库路径&gt; https://daible.github.io/Hexo</span><br><span class="line">root:&lt;你的仓库名&gt;/Hexo/</span><br></pre></td></tr></table></figure><p><img src="./HexoError1.png" alt="报错"><br><img src="./HexoError1.1.png" alt="报错"></p>]]></content>
     
     <summary type="html">
     
