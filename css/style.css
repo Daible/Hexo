@@ -619,7 +619,7 @@ nav i.icon-basic-eye {
 	padding-right: 74px;
 	top: 14px;
 	z-index: 1060;
-	color: #151515;
+	color: #4ad5ed;
 	font-family: 'Montserrat', "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -680,7 +680,7 @@ button.navbar-toggle .icon-bar {
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
-	background-color: #151515;
+	background-color: #4ad5ed;
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease .2s;
 	-o-transition: all ease .2s;

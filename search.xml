@@ -15,6 +15,9 @@
     color: pink; 
     font-weight: bold; ">"[]"中可以写入图片的代替性文字 圆括号内引入图片路径 相对/绝对路径都可</li>
 ]]></content>
+      <categories>
+        <category>markdwon</category>
+      </categories>
       <tags>
         <tag>markdown</tag>
       </tags>
@@ -41,6 +44,9 @@
     <content><![CDATA[<h2 id="2019-11-20"><a href="#2019-11-20" class="headerlink" title="2019/11/20"></a>2019/11/20</h2><h3 id="Hexo部署后发现github-pages访问时js-css文件访问不到-报404错误"><a href="#Hexo部署后发现github-pages访问时js-css文件访问不到-报404错误" class="headerlink" title="Hexo部署后发现github pages访问时js/css文件访问不到 报404错误"></a>Hexo部署后发现github pages访问时js/css文件访问不到 报404错误</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">解决方法</span><br><span class="line">根目录下找到配置文件 “_config.yml” 修改其中参数Url和root 改为</span><br><span class="line">url:&lt;你的仓库路径&gt; https://daible.github.io/Hexo</span><br><span class="line">root:&lt;你的仓库名&gt;/Hexo/</span><br></pre></td></tr></table></figure>
 <p><img src="./HexoError1.png" alt="报错"><br><img src="./HexoError1.1.png" alt="报错"></p>
 ]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
       <tags>
         <tag>Hexo部署</tag>
       </tags>
