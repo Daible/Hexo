@@ -440,7 +440,7 @@ $('#intro').find('img').each(function(){
     var isfetched = false;
     var isXml = true;
     // Search DB path;
-    var search_path = "search.xml";
+    var search_path = "search.json";
     if (search_path.length === 0) {
       search_path = "search.xml";
     } else if (/json$/i.test(search_path)) {
@@ -465,7 +465,7 @@ $('#intro').find('img').each(function(){
     }
 
     // get search zip version
-    $.get('/Hexo/?t=' + (+new Date()), function(res) {
+    $.get('/Hexo/searchVersion.txt?t=' + (+new Date()), function(res) {
       if (localStorage.getItem('searchVersion') !== res) {
         localStorage.setItem('searchVersion', res);
         initSearchJson();
@@ -473,10 +473,10 @@ $('#intro').find('img').each(function(){
     });
 
     function initSearchJson () {
-      initLoad(['/Hexo/'], {
+      initLoad(['/Hexo/search.zip'], {
         loadOptions: {
           success: function(obj) {
-            localStorage.setItem('searchJson', obj['search.xml'])
+            localStorage.setItem('searchJson', obj['search.json'])
           },
           error: function(e) {
             return console.log(e)
